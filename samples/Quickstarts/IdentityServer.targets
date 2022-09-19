@@ -1,0 +1,10 @@
+<Project>
+    <ItemGroup>
+        <!--<PackageReference Update="IdentityServer4" Version="[4.0.0,5.0.0)" />
+        <PackageReference Update="IdentityServer4.EntityFramework" Version="[4.0.0,5.0.0)" />
+        <PackageReference Update="IdentityServer4.AspNetIdentity" Version="[4.0.0,5.0.0)" />-->
+        <ProjectReference Include="$(MSBuildThisFileDirectory)/../../src/AspNetIdentity/src/IdentityServer4.AspNetIdentity.csproj" />
+        <ProjectReference Include="$(MSBuildThisFileDirectory)/../../src/EntityFramework/src/IdentityServer4.EntityFramework.csproj" />
+        <ProjectReference Include="$(MSBuildThisFileDirectory)/../../src/IdentityServer4/src/IdentityServer4.csproj" />
+    </ItemGroup>
+</Project>
